@@ -1,5 +1,7 @@
 # Stock Market Web Developement
 
+![Bull-and-Stock-Market-iStock](https://user-images.githubusercontent.com/43942029/100137248-35d4b980-2e5a-11eb-80f6-4ad85abadb3d.jpg)
+
 A website built in using an open-source app framework called streamlit, the app is used most for Machine Learning and Data Science teams to create beautiful data apps.
 
 

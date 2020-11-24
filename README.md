@@ -9,3 +9,9 @@ A website built in using an open-source app framework called streamlit, the app 
 
 - pip install streamlit
 - pip install PIL
+
+# Deploy 
+
+Run Stockweb app directly using GitHub URLs on a local system
+
+>>streamlit run https://github.com/Karimatajin/StockMarketWebDevelopement/blob/main/stockweb.py

@@ -15,3 +15,7 @@ A website built in using an open-source app framework called streamlit, the app 
 Run Stockweb app directly using GitHub URL on a local system
 
 - streamlit run https://github.com/Karimatajin/StockMarketWebDevelopement/blob/main/stockweb.py
+
+Or using streamlit share 
+
+- link is https://share.streamlit.io/karimatajin/stockmarketwebdevelopement/main/stockweb.py

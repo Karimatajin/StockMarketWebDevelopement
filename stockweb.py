@@ -10,7 +10,7 @@ from PIL import Image
 st.title("Stock Market Web Application: AMZN/TSLA/GOOG")
 
 # open the image
-image = Image.open("/Users/karimaidrissi/webapp/Bull-and-Stock-Market-iStock.jpg")
+image = Image.open("Bull-and-Stock-Market-iStock.jpg")
 st.image(image, use_column_width=True)
 
 # Create a sidebar header
@@ -39,11 +39,11 @@ def get_data(symbol, start, end):
 
     # load the  data
     if symbol.upper() == 'AMZN':
-        df = pd.read_csv("/Users/karimaidrissi/webapp/AMZN.csv")
+        df = pd.read_csv("AMZN.csv")
     elif symbol.upper() == 'TSLA':
-        df = pd.read_csv("/Users/karimaidrissi/webapp/TSLA.csv")
+        df = pd.read_csv("TSLA.csv")
     elif symbol.upper() == 'GOOG':
-        df = pd.read_csv("/Users/karimaidrissi/webapp/GOOG.csv")
+        df = pd.read_csv("GOOG.csv")
     else:
         df = pd.DataFrame(columns = ['Date','Open','High','Low','Close','Adj Close', 'Volume'])
 
